@@ -1,0 +1,5 @@
+{
+  "name": "IOTA Move Animal Quiz",
+  "description": "A high-contrast black & white quiz game running on a simulated IOTA Move network. Includes Move Smart Contract source code.",
+  "smart_contract": "move/sources/quiz_game.move"
+}
