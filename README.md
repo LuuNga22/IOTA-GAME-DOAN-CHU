@@ -27,6 +27,10 @@ IOTA-MOVE-ANIMAL-QUIZ/
 │   └── Result.tsx        # (Integrated in App) Displays score & Transaction Hash
 ```
 
+## Explorer Link & Contract Address
+Network: Testnet
+Package ID: 0xf125cefba8ca4c583b120ff6decba0b2c4874f5efc75a2009230723c9f64d202
+Explorer: View on IOTA Explorer
 ## 🚀 Key Features
 
 1.  **Black & White Interface:** Minimalist design, high contrast, Terminal/Console style.
