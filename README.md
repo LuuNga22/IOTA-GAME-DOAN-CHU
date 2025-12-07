@@ -1,6 +1,6 @@
 
-# IOTA-GAME-DOAN-CHU
-**doan-chu-iota** doan-chu-iota (IOTA-Word-Guess) is a minimalist Quiz Game application built on React and TypeScript, featuring simulated IOTA wallet connection and Smart Contract interaction.
+# IOTA-MOVE-ANIMAL-QUIZ
+**IOTA-MOVE-ANIMAL-QUIZ** doan-chu-iota (IOTA-Word-Guess) is a minimalist Quiz Game application built on React and TypeScript, featuring simulated IOTA wallet connection and Smart Contract interaction.
 
 
 
@@ -29,19 +29,26 @@ Truy cập trình duyệt tại địa chỉ: `http://localhost:3000/`
 ## 📂 Cấu trúc thư mục (File Structure)
 
 ```
-doan-chu-iota/
-├── index.html            # Main HTML file, includes Tailwind CDN
-├── index.tsx             # Entry point of the React application
-├── App.tsx               # Root component, manages Game state (Intro/Playing/Finished)
-├── types.ts              # Defines TypeScript Interfaces (Question, WalletState...)
-├── metadata.json         # Project metadata configuration
+IOTA-MOVE-ANIMAL-QUIZ/
+├── index.html             # Main HTML file, includes Tailwind CDN
+├── index.tsx              # Application entry point
+├── App.tsx                # Root component managing game flow
+├── types.ts               # TypeScript interfaces (Question, WalletState, etc.)
+├── metadata.json          # Project metadata configuration
 ├── services/
-│   └── iotaService.ts    # Service mocking Wallet connection and Smart Contract calls
-└── components/
-    ├── ConnectWallet.tsx # Welcome screen & IOTA Wallet connection
-    ├── Quiz.tsx          # Main game logic: Displays questions, checks answers
-    ├── Result.tsx        # Result screen & Transaction submission effect
-    └── Button.tsx        # Reusable button component (Black and White Style)
+│   ├── iotaService.ts     # Simulated wallet + smart contract service
+│   └── geminiService.ts   # (Optional) AI service integration
+├── move/                  # Move smart contract folder
+│   ├── Move.toml
+│   └── sources/
+│       ├── quiz_game.move # Smart contract logic
+│       └── Move.lock
+├── components/
+│   ├── ConnectWallet.tsx  # Wallet connection screen
+│   ├── Quiz.tsx           # Main quiz logic
+│   ├── Result.tsx         # Score + transaction result screen
+│   └── Button.tsx         # Reusable button UI component
+
 ```
 
 ## 📝 Question Data (Demo)
