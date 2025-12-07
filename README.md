@@ -28,9 +28,9 @@ IOTA-MOVE-ANIMAL-QUIZ/
 ```
 
 ## Explorer Link & Contract Address
-Network: Testnet
-Package ID: 0xf125cefba8ca4c583b120ff6decba0b2c4874f5efc75a2009230723c9f64d202
-Explorer: View on IOTA Explorer
+* Network: Testnet
+* Package ID: 0xf125cefba8ca4c583b120ff6decba0b2c4874f5efc75a2009230723c9f64d202
+* Explorer: [View on IOTA Explorer](https://explorer.iota.org/object/0xefa9255cafe614ade205de0651cd9ec23f8523ac161493eb01da25908f214177?network=testnet)
 ## 🚀 Key Features
 
 1.  **Black & White Interface:** Minimalist design, high contrast, Terminal/Console style.
