@@ -1,6 +1,8 @@
 # IOTA-MOVE-ANIMAL-QUIZ 🍕🧠
 
 A high-contrast Black & White animal quiz game project, integrating AI (Gemini) and simulating interaction with the IOTA Move Smart Contract (Pizza Box Module).
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/843738e3-7811-44ff-b4ad-58a3194b555c" />
+
 
 ## 📂 Project Structure
 
